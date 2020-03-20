@@ -61,7 +61,7 @@ if ask=='u':
 		print('Behind door {} is a goat!!!!. Better luck next time'.format(door_select))
 elif ask=='s':
 	n=int(input('How many iterations do you want the simulation to run :-'))
-	switching=input('Do you switch everytime or never [e/n] :-')
+	switching=input('Do you want to switch everytime or never [e/n] :-')
 	win=0
 	lose=0
 	for t in range(n):
