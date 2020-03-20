@@ -6,13 +6,13 @@ ask=input('Do you want to play Monty Hall game[u] or run simulation[s]?')
 if ask=='u':
 	door=[]
 	car_door = random.randint(0,2)
-	print(car_door)
+	#print(car_door)
 	for i in range(3):
 		if i==car_door:
 			door.append(1)
 		else:
 			door.append(0)
-	print(door)
+	#print(door)
 	print('There are 3 doors and behind one is a luxury car and behind others are goats')
 	door_select=int(input('Select a door! :-'))
 	if door[door_select-1]==1:
